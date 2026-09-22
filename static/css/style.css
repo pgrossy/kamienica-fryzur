@@ -50,9 +50,13 @@
 }
 @media(max-width:640px){
   .hero{
-    height:calc(100vh - 180px);
-    height:calc(100svh - 180px);
-    min-height:260px;
-    background:linear-gradient(90deg,#ead8c6 0%,#f5eade 24%,#faf7f2 50%,#f5eade 76%,#ead8c6 100%);
+    height:auto;
+    min-height:0;
+    background:#f5e9dc;
+  }
+  .hero img{
+    width:100%;
+    height:auto;
+    aspect-ratio:3 / 2;
   }
 }
