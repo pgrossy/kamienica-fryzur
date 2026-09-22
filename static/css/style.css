@@ -14,3 +14,5 @@
 .topbar .social-icons{gap:6px}
 .topbar .social-icons>a{border:0}
 .site-footer .social-icons>a:hover{color:var(--brown)}
+
+.hero h1.local-heading{font-size:clamp(2.4rem,4.3vw,4rem)}.faq{max-width:900px}.faq details{border-bottom:1px solid var(--line);padding:20px 0}.faq summary{cursor:pointer;font-weight:600}.faq details p{margin:16px 0 0}
